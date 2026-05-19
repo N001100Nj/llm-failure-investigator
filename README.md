@@ -136,21 +136,6 @@ Each trace should include fields such as:
 }
 ```
 
-## Dashboard Screenshots
+## Demo Video
 
-Add screenshots here after running the Streamlit dashboard:
-
-- Incident report list.
-- Severity distribution chart.
-- Failure type count chart.
-- Reliability metric cards.
-
-## Airflow DAGs
-
-The `dags/` folder contains:
-
-- `trace_ingestion_dag.py`: scheduled ingestion placeholder.
-- `failure_analysis_dag.py`: analyzes pending JSON files in `data/traces`.
-- `report_generation_dag.py`: computes reliability metrics.
-- `benchmarking_dag.py`: analyzes benchmark traces in `data/benchmarks`.
-
+https://youtu.be/I0PheLGQKN4
