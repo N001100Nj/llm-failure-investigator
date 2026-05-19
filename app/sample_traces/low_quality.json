@@ -1,0 +1,14 @@
+{
+  "trace_id": "gsm8k-low-quality-001",
+  "benchmark": "GSM8K",
+  "pipeline_name": "math-reasoning-agent",
+  "prompt": "A shop sells 12 notebooks each day for 5 days. How many notebooks are sold?",
+  "response": "Not sure.",
+  "expected_answer": "60",
+  "retrieved_documents": [],
+  "tool_calls": [],
+  "metadata": {
+    "dataset": "GSM8K"
+  }
+}
+

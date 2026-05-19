@@ -1,0 +1,24 @@
+{
+  "trace_id": "gsm8k-sample-001",
+  "benchmark": "GSM8K",
+  "pipeline_name": "math-agent",
+  "prompt": "Lena has 3 boxes with 8 pencils each. She gives away 5 pencils. How many remain?",
+  "response": "There are 29 pencils left.",
+  "expected_answer": "19",
+  "retrieved_documents": [],
+  "tool_calls": [
+    {
+      "name": "calculator",
+      "input": {
+        "expression": "3 * 8 - 5"
+      },
+      "output": "19",
+      "error": null,
+      "latency_ms": 21
+    }
+  ],
+  "metadata": {
+    "dataset": "GSM8K"
+  }
+}
+

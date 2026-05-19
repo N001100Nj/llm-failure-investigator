@@ -1,0 +1,24 @@
+{
+  "trace_id": "synthetic-sample-001",
+  "benchmark": "Synthetic",
+  "pipeline_name": "json-agent",
+  "prompt": "Return a JSON object with a final_answer string and score number.",
+  "response": "{\"final_answer\": 42}",
+  "expected_answer": "42",
+  "structured_output": {
+    "final_answer": 42
+  },
+  "expected_schema": {
+    "required": ["final_answer", "score"],
+    "properties": {
+      "final_answer": {"type": "string"},
+      "score": {"type": "number"}
+    }
+  },
+  "retrieved_documents": [],
+  "tool_calls": [],
+  "metadata": {
+    "dataset": "Synthetic"
+  }
+}
+

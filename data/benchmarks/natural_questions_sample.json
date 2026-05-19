@@ -1,0 +1,21 @@
+{
+  "trace_id": "naturalquestions-sample-001",
+  "benchmark": "Natural Questions",
+  "pipeline_name": "rag-pipeline",
+  "prompt": "Who painted the Mona Lisa?",
+  "response": "Michelangelo painted the Mona Lisa.",
+  "expected_answer": "Leonardo da Vinci",
+  "retrieved_documents": [
+    {
+      "doc_id": "art-2",
+      "content": "Renaissance art includes sculpture, painting, and architecture.",
+      "score": 0.71,
+      "source": "benchmark"
+    }
+  ],
+  "tool_calls": [],
+  "metadata": {
+    "dataset": "Natural Questions"
+  }
+}
+

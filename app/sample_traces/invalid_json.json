@@ -1,0 +1,29 @@
+{
+  "trace_id": "synthetic-invalid-json-001",
+  "benchmark": "Synthetic",
+  "pipeline_name": "structured-output-agent",
+  "prompt": "Return a JSON object with answer and confidence.",
+  "response": "{\"answer\": \"Paris\", \"confidence\": }",
+  "expected_answer": "Paris",
+  "structured_output": "{\"answer\": \"Paris\", \"confidence\": }",
+  "expected_schema": {
+    "required": ["answer", "confidence"],
+    "properties": {
+      "answer": {"type": "string"},
+      "confidence": {"type": "number"}
+    }
+  },
+  "retrieved_documents": [
+    {
+      "doc_id": "wiki-france-1",
+      "content": "Paris is the capital and most populous city of France.",
+      "score": 0.91,
+      "source": "wiki"
+    }
+  ],
+  "tool_calls": [],
+  "metadata": {
+    "dataset": "Synthetic"
+  }
+}
+

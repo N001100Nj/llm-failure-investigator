@@ -1,0 +1,21 @@
+{
+  "trace_id": "hotpotqa-sample-001",
+  "benchmark": "HotpotQA",
+  "pipeline_name": "multi-hop-rag",
+  "prompt": "What nationality was the author of The Trial?",
+  "response": "The author of The Trial was German.",
+  "expected_answer": "Czech",
+  "retrieved_documents": [
+    {
+      "doc_id": "kafka-1",
+      "content": "Franz Kafka was a German-speaking Bohemian novelist.",
+      "score": 0.86,
+      "source": "benchmark"
+    }
+  ],
+  "tool_calls": [],
+  "metadata": {
+    "dataset": "HotpotQA"
+  }
+}
+

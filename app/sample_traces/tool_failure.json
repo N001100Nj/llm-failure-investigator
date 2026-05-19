@@ -1,0 +1,24 @@
+{
+  "trace_id": "synthetic-tool-failure-001",
+  "benchmark": "Synthetic",
+  "pipeline_name": "calculator-agent",
+  "prompt": "Use the calculator tool to compute 19 * 23.",
+  "response": "The result is 427.",
+  "expected_answer": "437",
+  "retrieved_documents": [],
+  "tool_calls": [
+    {
+      "name": "calculator",
+      "input": {
+        "expression": "19 * 23"
+      },
+      "output": null,
+      "error": "Timeout after 1000ms",
+      "latency_ms": 1000
+    }
+  ],
+  "metadata": {
+    "dataset": "Synthetic"
+  }
+}
+

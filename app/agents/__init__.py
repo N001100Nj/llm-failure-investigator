@@ -1,0 +1,2 @@
+"""Rule-based investigation agents."""
+

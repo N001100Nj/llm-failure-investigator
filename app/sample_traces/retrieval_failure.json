@@ -1,0 +1,27 @@
+{
+  "trace_id": "naturalquestions-retrieval-001",
+  "benchmark": "Natural Questions",
+  "pipeline_name": "rag-pipeline",
+  "prompt": "Who wrote the novel Pride and Prejudice?",
+  "response": "The novel Pride and Prejudice was written by Charlotte Bronte.",
+  "expected_answer": "Jane Austen",
+  "retrieved_documents": [
+    {
+      "doc_id": "doc-19",
+      "content": "The Bronte sisters wrote several influential English novels.",
+      "score": 0.82,
+      "source": "corpus"
+    },
+    {
+      "doc_id": "doc-44",
+      "content": "Victorian literature includes works from many authors.",
+      "score": 0.75,
+      "source": "corpus"
+    }
+  ],
+  "tool_calls": [],
+  "metadata": {
+    "dataset": "Natural Questions"
+  }
+}
+
