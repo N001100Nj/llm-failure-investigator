@@ -8,7 +8,7 @@ LLM applications fail in several ways that are hard to debug from a single log l
 
 ## Architecture
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](logoremover_1779284942198.jpeg)
 
 The MVP uses deterministic rule-based analysis. LangGraph, ChromaDB, FAISS, and sentence-transformers are supported, but the code includes graceful fallbacks so the core investigation path remains simple to run.
 
