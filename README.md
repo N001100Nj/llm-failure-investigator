@@ -8,29 +8,9 @@ LLM applications fail in several ways that are hard to debug from a single log l
 
 ## Architecture
 
-```text
-Failed JSON Trace
-      |
-      v
-Pydantic ExecutionTrace validation
-      |
-      v
-START -> classifier
-      |
-      +--> schema_validator
-      +--> hallucination_detector
-      +--> retrieval_analyzer
-      +--> tool_failure_analyzer
-      +--> response_quality_evaluator
-      |
-      v
-root_cause_synthesizer -> IncidentReport -> END
-      |
-      +--> SQLite metrics and reports
-      +--> ChromaDB report embeddings
-      +--> FAISS report embeddings
-      +--> Streamlit dashboard
-```
+## Architecture
+
+![Architecture Diagram](architecture.png)
 
 The MVP uses deterministic rule-based analysis. LangGraph, ChromaDB, FAISS, and sentence-transformers are supported, but the code includes graceful fallbacks so the core investigation path remains simple to run.
 
